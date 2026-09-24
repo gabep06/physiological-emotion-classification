@@ -22,7 +22,7 @@ The pipeline:
 
 > Khazaei, S., Parshi, S., Alam, S., Amin, M. R., & Faghih, R. T. (2025). A Multimodal Dataset for Investigating Working Memory in Presence of Music. PhysioNet.
 
-Dataset link: *[add the PhysioNet page URL here]*
+Dataset link: [**](https://physionet.org/content/multimodal-nback-music/1.0.0/)
 
 The raw data is **not included** in this repo. To run the notebook, download it from PhysioNet and update `BASE_PATH` in the first code cell to point to your local copy.
 
