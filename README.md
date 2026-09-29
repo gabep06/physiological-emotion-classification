@@ -19,17 +19,16 @@ The pipeline:
 ## Dataset
 
 **"A Multimodal Dataset for Investigating Working Memory in Presence of Music"** (PhysioNet, Version 1.0.0, 2025)
-
 > Khazaei, S., Parshi, S., Alam, S., Amin, M. R., & Faghih, R. T. (2025). A Multimodal Dataset for Investigating Working Memory in Presence of Music. PhysioNet.
 
-Dataset link: [*https://physionet.org/content/multimodal-nback-music/1.0.0/*]
+Dataset link: [https://physionet.org/content/multimodal-nback-music/1.0.0/](https://physionet.org/content/multimodal-nback-music/1.0.0/)
 
 The raw data is **not included** in this repo. To run the notebook, download it from PhysioNet and update `BASE_PATH` in the first code cell to point to your local copy.
 
 ### Features Used (from Empatica wearables)
 
 | Feature | Description |
-|---|---|
+| --- | --- |
 | `Empatica_EDA` | Electrodermal activity (µS) |
 | `Empatica_TEMP` | Skin temperature (°C) |
 | `Empatica_HR` | Heart rate (BPM) |
@@ -51,7 +50,7 @@ The raw data is **not included** in this repo. To run the notebook, download it 
 ## Results
 
 | Metric | Score |
-|---|---|
+| --- | --- |
 | Accuracy | 0.69 |
 | Precision (emotional) | 0.61 |
 | Recall (emotional) | 0.60 |
@@ -60,8 +59,8 @@ The raw data is **not included** in this repo. To run the notebook, download it 
 
 **Confusion matrix** (rows = actual, columns = predicted):
 
-| | Predicted 0 | Predicted 1 |
-|---|---|---|
+|  | Predicted 0 | Predicted 1 |
+| --- | --- | --- |
 | **Actual 0** | 117 | 39 |
 | **Actual 1** | 41 | 61 |
 
@@ -82,9 +81,9 @@ The raw data is **not included** in this repo. To run the notebook, download it 
 ## Repository Contents
 
 | File | Description |
-|---|---|
-| `DSC101_Final_Project.ipynb` | Full notebook with code, visualizations, and analysis |
-| `DSC101_Final_Project.pdf` | PDF export of the notebook and report |
+| --- | --- |
+| `DSC 101 Final Project.ipynb` | Full notebook with code, visualizations, and analysis |
+| `DSC 101 Final Project (Official Copy).pdf` | PDF export of the notebook and report |
 
 ## How to Run
 
@@ -92,7 +91,7 @@ The raw data is **not included** in this repo. To run the notebook, download it 
 2. Install dependencies: `pip install pandas numpy matplotlib seaborn scikit-learn jupyter`
 3. Download the dataset from PhysioNet (see above).
 4. Update `BASE_PATH` in the notebook to your local data folder.
-5. Run the notebook from top to bottom.
+5. Run `DSC 101 Final Project.ipynb` from top to bottom.
 
 ## Acknowledgments
 
